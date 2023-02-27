@@ -1,5 +1,3 @@
-import { leaderBoardType, raceType, RawLaddersObject } from "./coh3-types";
-import { leaderboardsIDAsObject } from "./coh3-data";
 
 const BASE_RELIC_API_URL = "https://coh3-api.reliclink.com";
 
