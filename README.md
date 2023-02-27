@@ -15,13 +15,13 @@ This library includes types and util functions that are reused in multiple coh3 
 - Add the package to the dependencies list in the project in the package.json file 
 ```
 "dependencies": {
-    "coh-stats-components": "github:cohstats/coh-stats-components#<ENTER TAG HERE>"
+    "coh3-data-types-library": "github:cohstats/coh3-data-types-library#<ENTER TAG HERE>"
 }
 ```
 e.g.
 ```
 "dependencies": {
-    "coh-stats-components": "github:cohstats/coh-stats-components#0.0.1"
+    "coh3-data-types-library": "github:cohstats/coh3-data-types-library#0.0.1"
 }
 ```
 - Install the package with ``yarn``
