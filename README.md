@@ -1,8 +1,6 @@
 # coh3-data-types-library
 
-This library includes all Mantine React components that are reused in multiple cohstats projects. 
-
-Please only include stateless components which are used for Rendering UI elements!
+This library includes types and util functions that are reused in multiple coh3 related projects. 
 
 ## Get started
 

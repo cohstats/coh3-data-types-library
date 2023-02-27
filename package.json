@@ -1,5 +1,5 @@
 {
-  "name": "@cohstats/coh-stats-components",
+  "name": "@cohstats/coh3-data-types-library",
   "version": "0.0.10",
   "description": "Coh stats react components",
   "types": "./dist/cjs/declarations/index.d.ts",
@@ -27,30 +27,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cohstats/coh-stats-components.git"
+    "url": "https://github.com/cohstats/coh3-data-types-library.git"
   },
-  "keywords": [
-    "mantine",
-    "extension"
-  ],
   "author": "Johannes Merkt",
   "license": "MIT",
-  "homepage": "https://github.com/cohstats/coh-stats-components#readme",
+  "homepage": "https://github.com/cohstats/coh3-data-types-library#readme",
   "peerDependencies": {
-    "@emotion/react": ">=11.10.0",
-    "@mantine/core": ">=5.0.0",
-    "@mantine/hooks": ">=5.0.0"
   },
   "dependencies": {
-    "@tabler/icons": "^1.117.0"
   },
   "devDependencies": {
     "@babel/core": "^7.18.9",
-    "@emotion/react": "11.10.6",
-    "@mantine/core": "5.10.4",
-    "@mantine/ds": "5.10.4",
-    "@mantine/hooks": "5.10.4",
-    "@mantine/prism": "5.10.4",
     "@rollup/plugin-alias": "^3.1.2",
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
@@ -92,9 +79,6 @@
     "open": "^8.4.0",
     "pre-commit": "^1.2.2",
     "prettier": "^2.7.1",
-    "react": "^18.2.0",
-    "react-docgen-typescript": "^2.2.2",
-    "react-dom": "^18.2.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.77.0",
     "rollup-plugin-esbuild": "^4.2.3",
