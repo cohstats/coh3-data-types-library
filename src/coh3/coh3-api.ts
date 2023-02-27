@@ -1,5 +1,4 @@
-
-const BASE_RELIC_API_URL = "https://coh3-api.reliclink.com";
+const BASE_RELIC_API_URL = 'https://coh3-api.reliclink.com';
 
 /**
  *
@@ -10,25 +9,25 @@ const BASE_RELIC_API_URL = "https://coh3-api.reliclink.com";
  */
 const getLeaderBoardsUrl = (leaderboard_id: number, sortBy = 0, count = 100, start = 1) => {
   return encodeURI(
-    `${BASE_RELIC_API_URL}/community/leaderboard/getleaderboard2?count=${count}&leaderboard_id=${leaderboard_id}&start=${start}&sortBy=${sortBy}&title=coh3`,
+    `${BASE_RELIC_API_URL}/community/leaderboard/getleaderboard2?count=${count}&leaderboard_id=${leaderboard_id}&start=${start}&sortBy=${sortBy}&title=coh3`
   );
 };
 
 const getSearchUrl = (alias: string): string => {
   return encodeURI(
-    `${BASE_RELIC_API_URL}/community/leaderboard/getpersonalstat?aliases=[${alias}]&title=coh3`,
+    `${BASE_RELIC_API_URL}/community/leaderboard/getpersonalstat?aliases=[${alias}]&title=coh3`
   );
 };
 
 const getPersonalStatsUrl = (profileID: string): string => {
   return encodeURI(
-    `${BASE_RELIC_API_URL}/community/leaderboard/getpersonalstat?profile_ids=[${profileID}]&title=coh3`,
+    `${BASE_RELIC_API_URL}/community/leaderboard/getpersonalstat?profile_ids=[${profileID}]&title=coh3`
   );
 };
 
 const getRecentMatchHistoryUrl = (profileID: string): string => {
   return encodeURI(
-    `${BASE_RELIC_API_URL}/community/leaderboard/getrecentmatchhistorybyprofileId?profile_id=${profileID}&title=coh3`,
+    `${BASE_RELIC_API_URL}/community/leaderboard/getrecentmatchhistorybyprofileId?profile_id=${profileID}&title=coh3`
   );
 };
 

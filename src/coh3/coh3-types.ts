@@ -1,6 +1,7 @@
-export type raceType = "german" | "american" | "dak" | "british";
+export type logFileRaceType = 'germans' | 'americans' | 'afrika_korps' | 'british_africa';
+export type raceType = 'german' | 'american' | 'dak' | 'british';
 
-export type leaderBoardType = "1v1" | "2v2" | "3v3" | "4v4";
+export type leaderBoardType = '1v1' | '2v2' | '3v3' | '4v4';
 
 export type raceID = 129494 | 137123 | 197345 | 198437 | 203852;
 

@@ -1,24 +1,25 @@
-import { leaderBoardType, raceID, raceType } from "./coh3-types";
+import { leaderBoardType, logFileRaceType, raceID, raceType } from './coh3-types';
+declare const logFileRaceTypeToRaceType: Record<logFileRaceType, raceType>;
 declare const leaderboardsIDAsObject: {
-    "1v1": {
+    '1v1': {
         american: number;
         british: number;
         dak: number;
         german: number;
     };
-    "2v2": {
+    '2v2': {
         american: number;
         british: number;
         dak: number;
         german: number;
     };
-    "3v3": {
+    '3v3': {
         american: number;
         british: number;
         dak: number;
         german: number;
     };
-    "4v4": {
+    '4v4': {
         american: number;
         british: number;
         dak: number;
@@ -39,5 +40,5 @@ declare const matchTypesAsObject: Record<number, {
     name: string;
     localizedName?: string;
 }>;
-export { leaderboardsIDAsObject, localizedNames, localizedGameTypes, raceIDs, matchTypesAsObject, raceIDsAsObject, };
+export { leaderboardsIDAsObject, localizedNames, localizedGameTypes, raceIDs, matchTypesAsObject, raceIDsAsObject, logFileRaceTypeToRaceType, };
 //# sourceMappingURL=coh3-data.d.ts.map

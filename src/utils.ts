@@ -24,25 +24,25 @@ function formatMatchTime(startTime: number, onlyDate = false) {
   const difference = Date.now() - startTime * 1000; // start match vs NOW time difference in miliseconds
   const options: Intl.DateTimeFormatOptions = {
     //weekday: "long",
-    year: "numeric",
-    month: "long",
-    day: "numeric",
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
   };
 
-  let timeDifference = "";
+  let timeDifference = '';
 
   if (difference < hourMillis) {
-    timeDifference = "1 hour ago";
+    timeDifference = '1 hour ago';
   } else if (difference < hourMillis * 24) {
-    timeDifference = new Date(difference).toISOString().substr(11, 2) + " hours ago";
+    timeDifference = new Date(difference).toISOString().substr(11, 2) + ' hours ago';
   } else if (difference < hourMillis * 128) {
-    timeDifference = new Date(difference).toISOString().substr(9, 1) + " days ago";
+    timeDifference = new Date(difference).toISOString().substr(9, 1) + ' days ago';
   } else {
-    timeDifference = new Date(startTime * 1000).toLocaleDateString("en-US", options);
+    timeDifference = new Date(startTime * 1000).toLocaleDateString('en-US', options);
   }
 
   if (onlyDate) {
-    timeDifference = new Date(startTime * 1000).toLocaleDateString("en-US", options);
+    timeDifference = new Date(startTime * 1000).toLocaleDateString('en-US', options);
   }
 
   return timeDifference; //return duration in HH:MM:SS format
