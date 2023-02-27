@@ -1,0 +1,1 @@
+{"version":3,"file":"coh3-api.d.ts","sourceRoot":"","sources":["../../src/coh3/coh3-api.ts"],"names":[],"mappings":"AACA,QAAA,MAAM,kBAAkB,mCAAmC,CAAC;AAe5D,QAAA,MAAM,YAAY,UAAW,MAAM,KAAG,MAIrC,CAAC;AAEF,QAAA,MAAM,mBAAmB,cAAe,MAAM,KAAG,MAIhD,CAAC;AAEF,QAAA,MAAM,wBAAwB,cAAe,MAAM,KAAG,MAIrD,CAAC;AAEF,OAAO,EAAE,kBAAkB,EAAE,YAAY,EAAE,mBAAmB,EAAE,wBAAwB,EAAE,CAAC"}
