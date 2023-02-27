@@ -7,10 +7,8 @@ This library includes types and util functions that are reused in multiple coh3 
 - Install dependencies: `yarn`
 
 ## Publishing
-
+- make sure files are build using `yarn build`
 - Commit changes
-- During commit new dist files will be build
-- Commit the dist files too
 - To use the new components in other projects, create a tag on the newest commit
 - Add the package to the dependencies list in the project in the package.json file 
 ```
